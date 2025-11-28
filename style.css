@@ -1,97 +1,734 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.body {
+  background-color: rgb(231, 231, 231);
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.hero {
+  background: url(public/assets/iteration-1/home-banner.png);
+  height: 1080px;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  font-weight: 400;
+  color: white;
+  font-family: "Londrina Solid";
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 0%;
 }
 
-.read-the-docs {
-  color: #888;
+.subtitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  font-weight: 400;
+  font-size: 32px;
+  color: #fdc913;
+  font-family: "satisfy";
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+.slogan {
+  display: flex;
+  color: white;
+  font-weight: 300;
+  font-style: light;
+  justify-content: center;
+  font-size: 86px;
+  letter-spacing: 1.5px;
+  margin-top: 0.1rem;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  line-height: 5.75rem;
+}
+
+.siparisbtn {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  color: black;
+  background-color: #fdc913;
+  width: 12rem;
+  height: 3.5rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3rem;
+  margin-top: 1rem;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.sekmeler {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  gap: 4rem;
+}
+
+.kore {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-family: "Barlow";
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  size: 1.1rem;
+  align-items: center;
+  gap: 1rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.pizza {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-family: "Barlow";
+  font-weight: 500;
+  size: 1.1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.burger {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-family: "Barlow";
+  font-weight: 500;
+  size: 1.1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.kızartmalar {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-family: "Barlow";
+  font-weight: 500;
+  size: 1.1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fastfood {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-family: "Barlow";
+  font-weight: 500;
+  size: 1.1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gazlı {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-family: "Barlow";
+  font-weight: 500;
+  size: 1.1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.üçlü {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+  height: 28rem;
+  width: 67rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.lezzetus {
+  display: flex;
+  flex-direction: column;
+  background-image: url(public/assets/iteration-2/cta/kart-1.png);
+  background-size: cover;
+  width: 33rem;
+  height: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
+
+.bannerlar {
+  display: flex;
+  flex-direction: column;
+}
+
+.hackathlon {
+  display: flex;
+  flex-direction: column;
+  background-image: url(public/assets/iteration-2/cta/kart-2.png);
+  background-size: cover;
+  width: 33rem;
+  height: 13.7rem;
+  border-radius: 1rem;
+}
+
+.kurye {
+  display: flex;
+  flex-direction: column;
+  background-image: url(public/assets/iteration-2/cta/kart-3.png);
+  background-size: cover;
+  width: 33rem;
+  height: 13.7rem;
+  border-radius: 1rem;
+}
+
+.lezzetustext {
+  display: flex;
+  font-style: bold;
+  font-weight: 700;
+  color: white;
+  width: 18rem;
+  height: 9.2rem; 
+  line-height: 4.5rem;
+  font-size: 4.5rem;
+  padding-left: 2rem;
+  padding-top: 2.5rem;
+}
+
+.absolute {
+  display: flex;
+  font-style: bold;
+  font-weight: 700;
+  color: white;
+  width: 18rem;
+  height: 9.2rem; 
+  line-height: 1.6rem;
+  font-size: 1.25rem;
+  padding-left: 2rem;
+  padding-top: 3rem;
+}
+
+.lezzetusbtn {
+  display: flex;
+  text-decoration: none;
+  color: red;
+  background-color: white;
+  justify-content: center;
+  font-size: 0.8rem;
+  line-height: 3rem;
+  border-radius: 3rem;
+  width: 8.5rem;
+  margin-left: 2rem;
+  margin-bottom: 9.5rem;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.hackathlontext {
+  display: flex;
+  font-weight: 600;
+  color: white;
+  height: 9.2rem; 
+  line-height: 2rem;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-top: 2.5rem;
+  font-family: "Barlow";
+  line-height: 2.75rem;
+  padding-top: 1.5rem;
+}
+
+.hackathlonbtn {
+  display: flex;
+  text-decoration: none;
+  color: red;
+  background-color: white;
+  justify-content: center;
+  font-size: 0.8rem;
+  line-height: 3rem;
+  border-radius: 3rem;
+  width: 8.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.kuryetext {
+  font-weight: 600;
+  color: black;
+  height: 9.2rem; 
+  line-height: 2rem;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-top: 2.5rem;
+  font-family: "Barlow";
+  line-height: 2.75rem;
+  padding-top: 1.5rem;
+}
+
+.kuryebtn {
+  display: flex;
+  text-decoration: none;
+  color: red;
+  background-color: white;
+  justify-content: center;
+  font-size: 0.8rem;
+  line-height: 3rem;
+  border-radius: 3rem;
+  width: 8.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.baslik {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+
+.menüler {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Satisfy";
+  color: red;
+  font-weight: 400;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
+.doyuran {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 2.6rem;
+}
+
+.secenekler {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1rem;
+  gap: 1rem;
+  width: 66.75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ramen {
+  display: flex;
+  background-color: white;
+  border-radius: 2rem;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  align-items: center;
+  color: black;
+  width: 9.1rem;
+  justify-content: center;
+  gap: 0.6rem;
+  height: 4.1rem;
+}
+
+.pizza2 {
+  display: flex;
+  background-color: #292929;
+  color: white;
+  border-radius: 2rem;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  align-items: center;
+  width: 8.3rem;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.burger2 {
+  display: flex;
+  background-color: white;
+  border-radius: 2rem;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  align-items: center;
+  color: black;
+  width: 9.1rem;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.kızartmalar2 {
+  display: flex;
+  background-color: white;
+  border-radius: 2rem;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  align-items: center;
+  color: black;
+  width: 11.6rem;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.fastfood2 {
+  display: flex;
+  background-color: white;
+  border-radius: 2rem;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  align-items: center;
+  color: black;
+  width: 10.3rem;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.gazlı2 {
+  display: flex;
+  background-color: white;
+  border-radius: 2rem;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  align-items: center;
+  color: black;
+  width: 11.1rem;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.liste {
+  display: flex;
+  flex-direction: row;
+  width: 66.75rem;
+  height: 26.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3rem;
+  justify-content: space-between;
+}
+
+.terminalpizza {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 20.8rem;
+  height: 26.1rem;
+  border-radius: 1rem;
+}
+
+.terminal-img {
+  width: 270.67px;
+  height: 265px; 
+  margin: 0 auto;
+  display: block;
+  margin-top: 2rem;
+}
+
+.terminaltitle {
+  font-family: "Barlow";
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-weight: 600;
+  font-size: 1.3;
+}
+
+.ürünbilgi {
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: "Barlow";
+}
+
+.puan {
+  color: #1B1B1BB2;
+  font-weight: 600;
+}
+
+.yorum {
+  display: flex;
+  margin-left: 6rem;
+  font-weight: 600;
+  color: #1B1B1BB2;
+}
+
+.fiyat {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-style: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  border-style: solid;
+  border-color: #1A1A1A;
+  background-color: #1A1A1A;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  width: 66.6rem;
+  height: 24.3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5.5rem;
+  margin-top: 4rem;
+}
+
+.frame2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.infobaslik {
+  font-family: "Londrina Solid";
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.6rem;
+  color: white;
+}
+
+.infoliste {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  line-height: 2rem;
+  margin-top: 3rem;
+  font-family: "Barlow";
+  font-weight: 400;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start; 
+  gap: 10px;              
+  margin-bottom: 20px;    
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;        
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  padding-left: 8rem;
+  margin-top: 5.6rem;
+}
+
+.hotmenu {
+  color: white;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.menusecenekler {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 2.5rem;
+}
+
+.frame3 {
+  display: flex;
+  flex-direction: column;
+  width: 21rem;
+  height: 13rem;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  gap: 2.2rem;
+}
+
+.instagram {
+  color: white;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.fotoğraflar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.taban {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+  width: 1920px;
+  height: 80px;
+  border-top: 1px solid #333;
+  align-items: center;
+}
+
+.tabanyazı {
+  font-family: "Barlow";
+  font-weight: 400;
+}
+
+.twitter {
+  width: 1.2rem;
+  height: 1rem;
+}
+
+
+@media (max-width: 768px) {
+
+  .body {
+    overflow-x: hidden;
   }
-  a:hover {
-    color: #747bff;
+
+  .hero {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding-bottom: 3rem;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .slogan {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding: 0 1rem;
   }
+
+  .siparisbtn {
+    width: 10rem;
+    height: 3rem;
+  }
+
+  .sekmeler {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .sekmeler a {
+    width: 45%;
+    justify-content: center;
+  }
+
+  .üçlü {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  .lezzetus,
+  .hackathlon,
+  .kurye {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .secenekler {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    gap: 0.7rem;
+  }
+
+  .secenekler a {
+    width: 45%;
+    height: 3.5rem;
+  }
+
+  .liste {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .terminalpizza {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .terminal-img {
+    width: 200px;
+    height: auto;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .frame {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    gap: 2rem;
+  }
+
+  .frame3 {
+    width: 100%;
+  }
+
+  .fotoğraflar {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .taban {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .twitter {
+    width: 1rem;
+    height: auto;
+  }
+
 }
